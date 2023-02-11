@@ -112,8 +112,31 @@ fun main(args: Array<String>){
     }
     println()
 
+    println("10 + 20 = ${myFunction(10,20)}")
+    println("10 + 20 = ${myFunction1(10,20)}")
+    println("10 + 20 = ${myFunction2(10,20)}")
 
+    myDefaults(10,20)
+    myDefaults(10,20, "Hello")
+    myDefaults(10)
+    myDefaults(param2 = 20)
+    myDefaults(message = "Greetings")
+    myDefaults(10, message = "Hola")
+    myDefaults(param2 = 20, message = "Hajimemashte")
 
+}
+
+fun myFunction(param1: Int, param2: Int): Int{
+    return param1+param2
+}
+
+fun myFunction1(param1: Int, param2: Int): Int = param1+param2
+
+fun myFunction2(param1: Int, param2: Int) = param1+param2
+
+fun myDefaults(param1: Int = 1, param2 : Int = 2, message: String = "hi"): Int{
+    println("Message = $message")
+    return param1+param2
 }
 
 // I am a Comment
