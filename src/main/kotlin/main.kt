@@ -85,7 +85,16 @@ fun main(args: Array<String>){
         x-=2
     }while (x>0)
 
-    
+
+    for (item in 1..10){
+        print("$item, ")
+    }
+
+    for (ch in "biscuit"){
+        print("$ch, ")
+    }
+
+
 
 }
 
