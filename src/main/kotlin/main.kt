@@ -40,6 +40,17 @@ fun main(args: Array<String>){
         false
     }
     println("Is the air conditioner on?: $isAirConditionerOn")
+
+    val burgersOrdered = 1
+
+    when(burgersOrdered){
+        0 -> println("Not hungry")
+        1 -> println("Hungry")
+        2 -> println("Very Hungry")
+        else -> {
+            println("Are you sure?")
+        }
+    }
 }
 
 // I am a Comment
