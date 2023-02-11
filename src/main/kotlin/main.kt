@@ -22,10 +22,16 @@ fun main(args: Array<String>){
     val aLongNumber = 123_456_789 //underscore is kind of comma separated, only to use readable
     val theSameNumber = 123456789
 
-    val anInteger: Int = 1
-    val aLong: Long = anInteger.toLong() // explicit or implicit both need to be converted
+    val anInt: Int = 1
+    val aLong: Long = anInt.toLong() // explicit or implicit both need to be converted
 
 
+    //int lowest = (a>b)? a:b; //alternative of this expression in Kotlin
+
+    val lowest = if(myInt < anInt) myInt else anInt //when if uses as expression it must contains an else. The expression must have a value in all cases
+    println("the lowest value is $lowest")
+
+    
 }
 
 // I am a Comment
