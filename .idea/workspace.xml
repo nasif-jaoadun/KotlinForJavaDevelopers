@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            <state relative-caret-position="464">
+              <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -84,7 +84,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1676143323028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1676144704865" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676142850969</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Control flow - loop, for loop with a range and through a string with character">
+      <created>1676143486786</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676143486786</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,13 +237,14 @@
     <MESSAGE value="Control flow - When, basic when" />
     <MESSAGE value="Control flow - When, when with multiple condition in same argument, with range argument and without argument respectively" />
     <MESSAGE value="Control flow - loop, while and do while" />
-    <option name="LAST_COMMIT_MESSAGE" value="Control flow - loop, while and do while" />
+    <MESSAGE value="Control flow - loop, for loop with a range and through a string with character" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control flow - loop, for loop with a range and through a string with character" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="464">
+          <caret line="112" column="13" selection-start-line="112" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
         </state>
       </provider>
     </entry>

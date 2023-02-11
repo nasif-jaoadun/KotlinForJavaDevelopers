@@ -94,6 +94,24 @@ fun main(args: Array<String>){
         print("$ch, ")
     }
 
+    println()
+    var ndx = 0
+    for(item in 10.rangeTo(20).step(2)){
+        print("${++ndx} $item, ")
+    }
+    println()
+
+    for((index, item) in 10.rangeTo(20).step(2).withIndex()){
+        print("${index+1} $item, ")
+    }
+    println()
+
+    val myArray = arrayOf(10, 20, 30, 40, 50, 60)
+    for(item in myArray.indices){ // as myArray doesn't have its own iterator here indices is the iterator and gives the index number here
+        println("At index = $item is ${myArray[item]}")
+    }
+    println()
+
 
 
 }
