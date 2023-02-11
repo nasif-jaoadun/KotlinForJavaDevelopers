@@ -74,6 +74,19 @@ fun main(args: Array<String>){
         burgersOrdered % 2 == 0 -> println("Even number ordered")
     }
 
+    var x=0
+    while (x<10){
+        println("x = $x")
+        x+=3
+    }
+
+    do {
+        println("x= $x")
+        x-=2
+    }while (x>0)
+
+    
+
 }
 
 // I am a Comment
