@@ -31,7 +31,15 @@ fun main(args: Array<String>){
     val lowest = if(myInt < anInt) myInt else anInt //when if uses as expression it must contains an else. The expression must have a value in all cases
     println("the lowest value is $lowest")
 
-    
+    val temp = 88
+    val isAirConditionerOn = if(temp>=80){
+        println("it is worm")
+        true
+    }else{
+        println("It is not so warm")
+        false
+    }
+    println("Is the air conditioner on?: $isAirConditionerOn")
 }
 
 // I am a Comment
