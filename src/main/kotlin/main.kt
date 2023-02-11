@@ -41,16 +41,39 @@ fun main(args: Array<String>){
     }
     println("Is the air conditioner on?: $isAirConditionerOn")
 
-    val burgersOrdered = 1
+    val burgersOrdered = 2
 
     when(burgersOrdered){
         0 -> println("Not hungry")
-        1 -> println("Hungry")
-        2 -> println("Very Hungry")
+        1,2 -> println("Hungry")
+        3 -> println("Very Hungry")
         else -> {
             println("Are you sure?")
         }
     }
+
+    when(burgersOrdered){
+        Math.abs(burgersOrdered) -> println("ordered 0 or more burgers")
+        else -> {
+            println("ordered less than 0")
+        }
+    }
+
+    when(burgersOrdered){
+        0 -> println("We need orders")
+        in 1..4 -> println("Got Some orders")
+        in 5..9 -> println("Business is up")
+        else -> {
+            println("Not sure")
+        }
+    }
+
+    when{
+        burgersOrdered <= 0 -> println("Name ordered")
+        burgersOrdered % 2 == 1 -> println("Odd number ordered")
+        burgersOrdered % 2 == 0 -> println("Even number ordered")
+    }
+
 }
 
 // I am a Comment
