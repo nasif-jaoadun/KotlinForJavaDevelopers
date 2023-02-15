@@ -4,6 +4,7 @@ fun main(args: Array<String>){
     println("Hello World")
 
     val me = Person("S M", "Nasif")
+    val brother = Person("S M", "Sakib", "Ahsanus")
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
