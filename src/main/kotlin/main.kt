@@ -1,5 +1,11 @@
 package com.jnasifcoding.practise
 
+object MySingleton {
+    var temperatures = arrayOf(80, 73, 90)
+    fun getLastTemperature() = temperatures.last()
+}
+
+
 fun main(args: Array<String>){
     println("Hello World")
 
@@ -19,7 +25,13 @@ fun main(args: Array<String>){
             println("This is also the same position: $xPosition , $yPosition")
         }
     }
-    println(newLocation.printIt())
+    newLocation.printIt()
+    newLocation.xPosition = 3000
+    newLocation.yPosition = 4000
+    newLocation.printIt()
+
+    val temperature = MySingleton.getLastTemperature()
+    println("Last reading = $temperature degrees")
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
