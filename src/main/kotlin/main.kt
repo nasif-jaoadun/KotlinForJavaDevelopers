@@ -11,6 +11,15 @@ fun main(args: Array<String>){
         var yPosition = 400
     }
     println("position = ${location.xPosition} , ${location.yPosition}")
+
+    val newLocation = object {
+        var xPosition = 200
+        var yPosition = 400
+        fun printIt(){
+            println("This is also the same position: $xPosition , $yPosition")
+        }
+    }
+    println(newLocation.printIt())
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
