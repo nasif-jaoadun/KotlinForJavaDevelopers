@@ -3,6 +3,9 @@ package com.jnasifcoding.practise
 fun main(args: Array<String>){
     println("Hello World")
 
+    val me = Person("S M", "Nasif")
+    return
+
     //val is immutable, like final variable in java, it is thread safe and good to be used
     //var is mutable, it is the normal use of variable in java
 
