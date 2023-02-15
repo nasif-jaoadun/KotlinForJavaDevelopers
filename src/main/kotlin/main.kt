@@ -5,6 +5,12 @@ fun main(args: Array<String>){
 
     val me = Person("S M", "Nasif")
     val brother = Person("S M", "Sakib", "Ahsanus")
+
+    val location = object {
+        var xPosition = 200
+        var yPosition = 400
+    }
+    println("position = ${location.xPosition} , ${location.yPosition}")
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
