@@ -31,7 +31,7 @@ fun main(args: Array<String>){
     newLocation.printIt()
 
     val temperature = MySingleton.getLastTemperature()
-    println("Last reading = $temperature degrees")
+    println("Last reading = $temperature degree")
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
