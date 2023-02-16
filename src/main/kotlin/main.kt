@@ -1,5 +1,7 @@
 package com.jnasifcoding.practise
 
+import com.jnasifcoding.practise.Car
+
 object MySingleton {
     var temperatures = arrayOf(80, 73, 90)
     fun getLastTemperature() = temperatures.last()
@@ -32,6 +34,10 @@ fun main(args: Array<String>){
 
     val temperature = MySingleton.getLastTemperature()
     println("Last reading = $temperature degree")
+
+    val myCar = Car()
+    myCar.go()
+    println("My car's make= ${myCar.MakeName}")
     return
 
     //val is immutable, like final variable in java, it is thread safe and good to be used
