@@ -1,14 +1,30 @@
 package com.jnasifcoding.practise
 
+import main.java.com.jnasifcoding.practise.Animal
+
 
 object MySingleton {
     var temperatures = arrayOf(80, 73, 90)
     fun getLastTemperature() = temperatures.last()
 }
 
+fun javaInterOp(){
+    val tom = Animal("Tom","cat", 10)
+    println(tom.show())
+    val guddu = Animal("Guddu", "dog", 30)
+    println(guddu.show())
+
+    guddu.weight =34
+    println(guddu.show())
+
+    //guddu.kind = "Elephent"
+
+}
 
 fun main(args: Array<String>){
     println("Hello World")
+
+    javaInterOp()
 
     val maxInt: Int = max(42, 88)
     val maxLong: Long = max(123456789L, 999999999L)
