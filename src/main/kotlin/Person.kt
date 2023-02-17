@@ -1,6 +1,6 @@
 package com.jnasifcoding.practise
 
-class Person internal constructor(firstName: String, lastName: String){ //with a visibility modifier (internal)
+class Person internal constructor(var firstName: String, var lastName: String){ //with a visibility modifier (internal)
     init {
         println("Creating a person named $firstName $lastName")
     }
