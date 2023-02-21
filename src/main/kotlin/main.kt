@@ -21,8 +21,17 @@ fun javaInterOp(){
 
 }
 
+fun useOverLoad(){
+    val p1 = Position(200,800)
+    val p2 = Position(1000, 2000)
+    val p3 = p1+p2
+    println(p3)
+}
+
 fun main(args: Array<String>){
     println("Hello World")
+
+    useOverLoad()
 
     javaInterOp()
 
