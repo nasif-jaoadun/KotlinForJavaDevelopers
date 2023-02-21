@@ -32,6 +32,9 @@ fun main(args: Array<String>){
     println("Hello World")
 
     val Tanvir = Person("Tanvir","Ahmed")
+    val kClass = Tanvir.javaClass.kotlin
+    println("Simple name = ${kClass.simpleName}")
+
     useOverLoad()
 
     javaInterOp()
