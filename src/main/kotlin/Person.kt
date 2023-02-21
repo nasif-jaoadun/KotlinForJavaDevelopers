@@ -1,5 +1,5 @@
 package com.jnasifcoding.practise
-
+@Deprecated("use the Animal Class instead", ReplaceWith("Animal"))
 class Person internal constructor(var firstName: String, var lastName: String){ //with a visibility modifier (internal)
     init {
         println("Creating a person named $firstName $lastName")
