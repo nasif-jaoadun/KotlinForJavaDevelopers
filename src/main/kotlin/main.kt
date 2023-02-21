@@ -1,6 +1,7 @@
 package com.jnasifcoding.practise
 
 import main.java.com.jnasifcoding.practise.Animal
+import kotlin.reflect.full.memberProperties
 
 
 object MySingleton {
@@ -34,6 +35,11 @@ fun main(args: Array<String>){
     val Tanvir = Person("Tanvir","Ahmed")
     val kClass = Tanvir.javaClass.kotlin
     println("Simple name = ${kClass.simpleName}")
+
+    for(name in kClass.memberProperties){
+        println("Property Name = $name")
+        println("Property Name = ${name.name}")
+    }
 
     useOverLoad()
 
