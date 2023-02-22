@@ -9,6 +9,13 @@ object MySingleton {
     fun getLastTemperature() = temperatures.last()
 }
 
+//to prove the existence of Component()
+fun showComponents(){
+    val myPoint = Point(5000,4000, 30000)
+    val (myX, myY, myz) = myPoint
+    println("myX= $myX myY= $myY myZ= $myz")
+}
+
 fun javaInterOp(){
     val tom = Animal("Tom","cat", 10)
     println(tom.show())
@@ -27,10 +34,17 @@ fun useOverLoad(){
     val p2 = Position(1000, 2000)
     val p3 = p1+p2
     println(p3)
+
+    val (xPosition, yPosition) = p1 //Here two new variables are xPosition and yPosition which is based on the properties of data class
+    println("xPosition = $xPosition, yPosition = $yPosition")
+    println("c1 = ${p1.component1()}")
 }
 
 fun main(args: Array<String>){
     println("Hello World")
+
+    showComponents()
+    return
 
     val Tanvir = Person("Tanvir","Ahmed")
     val kClass = Tanvir.javaClass.kotlin
