@@ -2,8 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14ffe26-8cb2-4fa4-80fd-50abf0096a80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functional.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-collections/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-collections/src/main/kotlin/org/funktionale/collections/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-collections/src/test/kotlin/org/funktionale/collections/CollectionsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-complement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-complement/src/main/kotlin/org/funktionale/complement/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-complement/src/test/kotlin/org/funktionale/complement/ComplementTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-composition/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-composition/src/main/kotlin/org/funktionale/composition/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-composition/src/test/kotlin/org/funktionale/composition/ComposeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-composition/src/test/kotlin/org/funktionale/composition/CompositionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-currying/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-currying/src/main/kotlin/org/funktionale/currying/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-currying/src/test/kotlin/org/funktionale/currying/CurryingTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/Disjunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/Either.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/EitherLike.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/LeftLike.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/LeftProjection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/RightLike.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/main/kotlin/org/funktionale/either/RightProjection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/test/kotlin/org/funktionale/either/DisjunctionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-either/src/test/kotlin/org/funktionale/either/EitherTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/generators/generate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/ds/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/eh/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/gs/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/lz/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/m/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-experimental/src/main/kotlin/org/funktionale/playground/nn/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-memoization/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-memoization/src/main/kotlin/org/funktionale/memoization/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-memoization/src/test/kotlin/org/funktionale/memoization/MemoizationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-option/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-option/src/main/kotlin/org/funktionale/option/Option.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-option/src/test/kotlin/org/funktionale/option/OptionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pairing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pairing/src/main/kotlin/org/funktionale/pairing/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pairing/src/test/kotlin/org/funktionale/pairing/PairingTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-partials/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-partials/src/main/kotlin/org/funktionale/partials/Partial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-partials/src/main/kotlin/org/funktionale/partials/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-partials/src/test/kotlin/org/funktionale/partials/PartialsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pipe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pipe/src/main/kotlin/org/funktionale/pipe/pipe.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-pipe/src/test/kotlin/org/funktionale/pipe/PipeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-reverse/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-reverse/src/main/kotlin/org/funktionale/reverse/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-reverse/src/test/kotlin/org/funktionale/reverse/ReverseTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-state/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-state/src/main/kotlin/org/funktionale/state/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-state/src/test/kotlin/org/funktionale/state/StateTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-try/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-try/src/main/kotlin/org/funktionale/tries/Try.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-try/src/test/kotlin/org/funktionale/tries/TryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/main/kotlin/org/funktionale/utils/GetterOperation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/main/kotlin/org/funktionale/utils/GetterSetterOperation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/main/kotlin/org/funktionale/utils/SetterOperation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/main/kotlin/org/funktionale/utils/namespace.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/main/kotlin/org/funktionale/utils/partialfunctions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/test/kotlin/org/funktionale/utils/PartialFunctionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-utils/src/test/kotlin/org/funktionale/utils/UtilTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-validation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-validation/src/main/kotlin/org/funktionale/validation/Validation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/funktionale-validation/src/test/kotlin/org/funktionale/validation/ValidationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/funKTionale/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/functional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/functional.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="33" />
+              <caret column="8" selection-start-column="8" selection-end-column="33" />
               <folding>
                 <element signature="e#35#128#0" expanded="true" />
               </folding>
@@ -57,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/sequences.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -65,8 +136,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/functional.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="198">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#35#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,15 +172,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Position.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -121,7 +186,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="05_03" />
+        <entry key="$PROJECT_DIR$" value="05_04" />
       </map>
     </option>
   </component>
@@ -181,18 +246,7 @@
               <item name="KotlinForJavaDevelopers" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KotlinForJavaDevelopers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KotlinForJavaDevelopers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KotlinForJavaDevelopers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -224,8 +278,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677144611078" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677151621047" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.jnasifcoding.practise.SequencesKt">
+  <component name="RunManager" selected="Kotlin.com.jnasifcoding.practise.FunctionalKt">
     <configuration name="com.jnasifcoding.practise.ClosureKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinForJavaDevelopers" />
       <option name="VM_PARAMETERS" />
@@ -253,6 +312,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.jnasifcoding.practise.FunctionalKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinForJavaDevelopers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jnasifcoding.practise.FunctionalKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.jnasifcoding.practise.LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinForJavaDevelopers" />
       <option name="VM_PARAMETERS" />
@@ -261,19 +333,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.jnasifcoding.practise.LambdasKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.jnasifcoding.practise.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinForJavaDevelopers" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.jnasifcoding.practise.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -307,11 +366,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.jnasifcoding.practise.FunctionalKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.SequencesKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.ClosureKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.LambdasKt" />
         <item itemvalue="Kotlin.main.kotlin.OperatorKt" />
-        <item itemvalue="Kotlin.com.jnasifcoding.practise.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -571,23 +630,31 @@
       <option name="project" value="LOCAL" />
       <updated>1677139656262</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="funktionale lib">
+      <created>1677144655550</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677144655550</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32979977" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32979977" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.37102473" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.37102473" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -606,7 +673,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Control flow - loop, Advance for loop with array" />
     <MESSAGE value="function - Use of function, Compact function, Less overloading and parameter definition" />
     <MESSAGE value="Package" />
     <MESSAGE value="Fizz Buzz Challenge - something divided by 3 prints fizz, divided by 5 prints buzz and divided by both 3 and 5 prints fizzbuzz within the range of 105" />
@@ -631,7 +697,8 @@
     <MESSAGE value="Lambda, lambda used in data class combined with collection" />
     <MESSAGE value="Closure, Holds data by a function" />
     <MESSAGE value="Method chaining, sequences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method chaining, sequences" />
+    <MESSAGE value="funktionale lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="funktionale lib" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Vehicle.kt">
@@ -701,7 +768,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Position.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -750,24 +817,30 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/sequences.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="33" />
+          <caret column="8" selection-start-column="8" selection-end-column="33" />
           <folding>
             <element signature="e#35#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/funKTionale/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/functional.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#35#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
