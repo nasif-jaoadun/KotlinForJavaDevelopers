@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14ffe26-8cb2-4fa4-80fd-50abf0096a80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/closure.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sequences.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,17 +38,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/lambdas.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="550">
               <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/closure.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/sequences.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -67,27 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="726">
               <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jnasifcoding/practise/Animal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="29" column="68" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
-              <folding>
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +124,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="05_01" />
+        <entry key="$PROJECT_DIR$" value="05_02" />
       </map>
     </option>
   </component>
@@ -158,6 +146,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/operator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/lambdas.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/closure.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/sequences.kt" />
       </list>
     </option>
   </component>
@@ -212,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677093985605" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1677139624883" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -227,20 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.jnasifcoding.practise.ClosureKt">
-    <configuration name="HelloWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.jnasifcoding.HelloWord" />
-      <module name="KotlinForJavaDevelopers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.com.jnasifcoding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.com.jnasifcoding.practise.SequencesKt">
     <configuration name="com.jnasifcoding.practise.ClosureKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinForJavaDevelopers" />
       <option name="VM_PARAMETERS" />
@@ -280,6 +256,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.jnasifcoding.practise.SequencesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinForJavaDevelopers" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.jnasifcoding.practise.SequencesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.kotlin.OperatorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinForJavaDevelopers" />
       <option name="VM_PARAMETERS" />
@@ -295,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.jnasifcoding.practise.SequencesKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.ClosureKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.LambdasKt" />
         <item itemvalue="Kotlin.main.kotlin.OperatorKt" />
         <item itemvalue="Kotlin.com.jnasifcoding.practise.MainKt" />
-        <item itemvalue="Application.HelloWord" />
       </list>
     </recent_temporary>
   </component>
@@ -545,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677068731925</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Closure, Holds data by a function">
+      <created>1677132549836</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677132549836</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -581,7 +577,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Control flow - loop, while and do while" />
     <MESSAGE value="Control flow - loop, for loop with a range and through a string with character" />
     <MESSAGE value="Control flow - loop, Advance for loop with array" />
     <MESSAGE value="function - Use of function, Compact function, Less overloading and parameter definition" />
@@ -606,7 +601,8 @@
     <MESSAGE value="Destructuring, to access the variable in complicated object, can be created variables in sequence of constructor, which is handled by a sequences with the name of componen1(),componen2() and represents the sequences of parameter's constructor" />
     <MESSAGE value="Coding test with operator overloading, plus and minus" />
     <MESSAGE value="Lambda, lambda used in data class combined with collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lambda, lambda used in data class combined with collection" />
+    <MESSAGE value="Closure, Holds data by a function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Closure, Holds data by a function" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/Vehicle.kt">
@@ -708,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/lambdas.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -729,6 +718,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/lambdas.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/sequences.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
