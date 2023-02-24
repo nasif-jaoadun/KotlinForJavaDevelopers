@@ -27,5 +27,14 @@ fun main(){
 
     val studentsWithLongNames = students.filter { it.name.length > 5 }
     println("Long names: "+ studentsWithLongNames)
+
+    val studentsWithShortNames = students.filter { it.name.length < 5 }
+    println("Long names: "+ studentsWithShortNames)
+
+    val shortestName = students.minBy { it.name.length }
+    if(shortestName!= null){
+        val studentWithShortName = students.filter { it.name.length == shortestName.name.length }
+        println("Short name : $studentWithShortName")
+    }
 }
 
